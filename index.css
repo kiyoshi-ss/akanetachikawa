@@ -20,7 +20,7 @@ a{
   flex-wrap: wrap;
 }
 
-@media(min-width: 800px) {
+@media(min-width: 600px) {
   .flexbox .card{
     width: 50%;
   }

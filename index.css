@@ -1,6 +1,10 @@
+html{
+  font-size: 62.5%;
+}
+
 body{
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 img {
@@ -8,7 +12,7 @@ img {
 }
 
 #kuroakane, #akanekimi{
-  width: 50rem;
+  width: 80rem;
   margin-bottom: 2rem;
 }
 
@@ -20,6 +24,7 @@ a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 20rem;
 }
 
 .flexbox .card {
@@ -27,9 +32,6 @@ a{
 }
 
 @media(min-width: 600px) {
-  body{
-    font-size: 2rem;
-  }
   .flexbox .card{
     width: 45%;
   }

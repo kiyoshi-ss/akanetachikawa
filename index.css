@@ -39,7 +39,7 @@ a{
 
 @media(min-width: 1000px) {
   .flexbox{
-    margin: 20rem;
+    margin: 5rem 20rem;
   }
   .flexbox .card{
     width: 21%;

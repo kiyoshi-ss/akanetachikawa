@@ -1,3 +1,33 @@
 body{
   text-align: center;
+  font-size: 3rem;
+}
+
+img {
+  width: 100%;
+}
+
+#kuroakane, #akanekimi{
+  width: 50rem;
+}
+
+a{
+  width: 100%;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(min-width: 800px) {
+  .flexbox .card{
+    width: 50%;
+  }
+}
+
+@media(min-width: 1000px) {
+  .flexbox .card{
+    width: 25%;
+  }
 }
